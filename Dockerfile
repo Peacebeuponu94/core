@@ -8,7 +8,7 @@ COPY tsconfig*.json ./
 
 RUN npm ci --quiet
 
-FROM node:16
+FROM node:16@sha256:68fc9f749931453d5c8545521b021dd97267e0692471ce15bdec0814ed1f8fc3
 
 WORKDIR /src
 
