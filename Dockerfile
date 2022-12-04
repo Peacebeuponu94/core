@@ -1,5 +1,5 @@
 # syntax=docker/dockerfile:1.3
-FROM ethereum/solc:0.8.7 as build-deps
+FROM ethereum/solc:0.8.7@sha256:e4b7773b3daba9dd03efae592398b3d661b460465fc86d303f1a14003f2d2fd6 as build-deps
 
 FROM node:16 as build-packages
 
